@@ -60,4 +60,15 @@ form.addEventListener('submit', e => {
     const includeSymbols = includeSymbolsElement.checked
     const password = generatePassword(characterAmount, includeLowercase, includeUppercase, includeNumbers, includeSymbols)
    passwordDisplay.innerText = password
+   document.getElementById("copyinput").value = password
 })
+
+// copy text button
+
+function myFunction() {
+    var copyinput = document.getElementById("copyinput");
+    copyinput.select();
+    copyinput.setSelectionRange(0, 99999); 
+    document.execCommand("copy");
+    alert("Copied the text: " + copyinput.value);
+  }
