@@ -70,5 +70,4 @@ function myFunction() {
     copyinput.select();
     copyinput.setSelectionRange(0, 99999); 
     document.execCommand("copy");
-    alert("Copied the text: " + copyinput.value);
   }
