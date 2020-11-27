@@ -31,7 +31,7 @@ body{
     padding: 1rem;
     border: 1px solid black;
     width: 350px;
-    height: 2rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ label {
     background-color: transparent;
     border: 2px solid white;
     color: white;
-    padding: 5px;
+    padding: 8px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 1rem;
