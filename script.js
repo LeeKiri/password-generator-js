@@ -18,7 +18,8 @@ charNumber.addEventListener('input', syncCharacterAmount)
 charRange.addEventListener('input', syncCharacterAmount)
 
 
-// Write password to the #password input
+// Code preparing to Generate Password
+
 function generatePassword(characterAmount, includeLowercase, includeUppercase, includeNumbers, includeSymbols) {
     let charcodes = []
     if(includeLowercase) charcodes = charcodes.concat(LOWERCASE_CHAR_CODES)
@@ -47,7 +48,8 @@ function syncCharacterAmount(e) {
     charNumber.value = value
 }
 
-// Add event listener to generate button
+// Code to check form inputs and display Generated Password
+
 form.addEventListener('submit', e => {
     e.preventDefault()
     console.log('submit')
