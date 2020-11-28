@@ -67,11 +67,11 @@ label {
 }
 
 .promptsContainer {
-    display: flex;
     align-items: center;
+    grid-column: span 2;
 }
 .number-input {
-    width: 3rem;
+    width: 2rem;
 }
 
 /* Button CSS */
@@ -109,4 +109,30 @@ label {
     height: 1px;
     width: 1px;
     opacity: 0;
+}
+
+/* Media Queries */
+ 
+@media (max-width: 500px) {
+   .form{
+       column-gap: .1rem;
+       padding: 2px;
+   }
+   .password-display{
+       max-width: 275px;
+       padding: 8px;
+       letter-spacing: .1rem;
+       height: 8rem;
+   }
+   .container{
+       padding: 0;
+       width: 330px;
+       margin: 5px;
+   }
+   .title{
+       text-align: center;
+   }
+   body{
+       margin: 0;
+   }
 }

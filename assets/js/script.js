@@ -66,7 +66,7 @@ form.addEventListener('submit', e => {
 // copy text button
 
 function myFunction() {
-    var copyinput = document.getElementById("copyinput");
+    let copyinput = document.getElementById("copyinput");
     copyinput.select();
     copyinput.setSelectionRange(0, 99999); 
     document.execCommand("copy");
