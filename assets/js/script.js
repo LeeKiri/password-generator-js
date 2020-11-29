@@ -52,7 +52,6 @@ function syncCharacterAmount(e) {
 
 form.addEventListener('submit', e => {
     e.preventDefault()
-    console.log('submit')
     const characterAmount = charNumber.value
     const includeUppercase = includeUppercaseElement.checked
     const includeLowercase = includeLowercaseElement.checked
