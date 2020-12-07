@@ -11,9 +11,7 @@ The new password is printed to the box and I added a `Copy Password` button for 
 
 ## Javascript Features
 
-* For this project I used charcodes to reference the characters in the password. 
-
-* I used a functions to create an array by checking the form values and concatenating the charcode characters together to the requested password length.  
+* I used functions to create an array by checking the form values and concatenating the characters together to the requested password length.  
 
 ## CSS and HTML
 
